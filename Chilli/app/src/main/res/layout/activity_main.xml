@@ -32,5 +32,22 @@
             android:layout_alignParentBottom="true"
             app:menu="@menu/menu_main" />
 
+        <com.budiyev.android.codescanner.CodeScannerView
+            android:id="@+id/scanner_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:autoFocusButtonColor="@color/white"
+            app:autoFocusButtonVisible="true"
+            app:flashButtonVisible="@color/white"
+            app:flashButtonVisible="true"
+            app: frameColor="@color/white"
+            app: frameCornersSize="50dp"
+            app: frameCornersRadius="Odp"
+            app: frameAspectRatioHeight="1"
+            app: frameAspectRatiowidth="1"
+            app: frameSize="0.75"
+            app: frameThickness="2dp"
+            app:maskColor="#77000000"/>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
